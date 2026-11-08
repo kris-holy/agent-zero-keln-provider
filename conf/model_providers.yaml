@@ -1,0 +1,11 @@
+# Keln provider for Agent Zero
+# Provider ID 'keln' maps to KELN_API_KEY
+chat:
+  keln:
+    name: Keln
+    litellm_provider: openai
+    models_list:
+      endpoint_url: "https://api.keln.ai/v1/models"
+    kwargs:
+      a0_api_mode: chat
+      api_base: https://api.keln.ai/v1
