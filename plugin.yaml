@@ -2,4 +2,3 @@ name: keln_provider
 title: Keln Provider
 description: Adds Keln as a chat model provider in Agent Zero, with open models through an OpenAI-compatible API.
 version: 1.0.0
-always_enabled: true
